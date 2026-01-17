@@ -39,10 +39,33 @@ class Main {
                 );
 
             getEncryptionDecryption(
-                    "cust9999999997506046EF0CE79D79C72AE0632364A8C0D94000000007334604",
+                    "cust9999999997602046B11C9FBAACF1B7E0631616780A585600000007333644",
                     "d7a1c345c46a77644fba6e438a98c2369871bda07f409039e5c11ed2b49d489c",
                     "QR ID Encryption"
                 );
+
+            // FOR PRODUCTION USE ONLY
+
+            getEncryptionDecryption
+            (
+                    "123000",
+                    "1d2fdced2bfa51df79b364e519b9eb55e13baaf58bd84e32ccfb1d0c1bedf3f3",
+                    "Production OTP Encryption"
+            );
+
+            getEncryptionDecryption
+            (
+                    "123456",
+                    "b3d9cfac9ca744c6aa4515068a06ea6a71dc0c59245ae7e4c442422afc752d30",
+                    "Production App password Encryption"
+            );
+
+            getEncryptionDecryption
+            (
+                    "3d0f6cf6652715987cd9f5678c18c4c3c8164e9588123304c0b86f2fd158b89f",
+                    "d7a1c345c46a77644fba6e438a98c2369871bda07f409039e5c11ed2b49d489c",
+                    "Production QR ID Encryption"
+            );
 
         } catch (Exception e) {
             e.printStackTrace();
