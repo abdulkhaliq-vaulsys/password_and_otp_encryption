@@ -45,6 +45,9 @@ class Main {
                 );
 
             // FOR PRODUCTION USE ONLY
+            System.out.println("*************************************");
+            System.out.println("Production Environment Encryption/Decryption");
+            System.out.println("*************************************");
 
             getEncryptionDecryption
             (
